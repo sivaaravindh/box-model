@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    width:85%;
+    border:gray;
+    margin:auto;
+    text-align:center;
+}
+.model{
+  width: 50%;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: auto;
+  text-align:justify;
+}
+.color2{
+  width: 70%;
+  padding: 30px;
+  border: 5px solid gray;
+  margin: auto;
+ margin-top:4%;
+  text-align:justify;
+}
+.color2 p {outline-color:rgb(66, 211, 192);}
+
+.color2 p.dotted {outline-style: dotted; padding:10px;}
+.color2 p.dashed {outline-style: dashed; padding:10px;}
+.color2 p.solid {outline-style: solid; padding:10px;}
+.color2 p.double {outline-style: double; padding:10px;}
+.color2 p.groove {outline-style: groove; padding:10px;}
+.color2 p.ridge {outline-style: ridge; padding:10px;}
+.color2 p.inset {outline-style: inset; padding:10px;}
+.color2 p.outset {outline-style: outset; padding:10px;}
+
+.oupset p{
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+.color{
+  width:60%;
+  margin:auto;
+}.color h2{
+  padding:20px;
+}
+.color p {
+  border: 2px solid black;
+  outline: #82ac83 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+.border{
+  width:70%;
+  margin:auto;
+  padding:30px;
+}
+.border2{
+  width:70%;
+  margin:auto;
+  padding:30px;
+}
+.border p.none {border-style: none; margin:5px;}  
+.border p.dotted {border-style: dotted;margin:5px;}  
+.border p.dashed {border-style: dashed; margin:5px;}  
+.border p.solid {border-style: solid; margin:5px;}  
+.border p.double {border-style: double; margin:5px;}  
+.border p.groove {border-style: groove; margin:5px;}  
+.border p.ridge {border-style: ridge; margin:5px;}  
+.border p.inset {border-style: inset; margin:5px;}  
+.border p.outset {border-style: outset; margin:5px;}  
+.border p.hidden {border-style: hidden;margin:5px;}  
+
+.border2 p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+.border2 p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+.border2 p.three {
+  border-style: dotted;
+  border-width: 2px;
+  border-color: green;
+}
+
+.border2 p.four {
+  border-style: dotted;
+  border-width: thick;
+  border-color: green;
+}
+
+.border2 p.five {
+  border-style: double;
+  border-width: 15px;
+}
+
+.border2 p.six {
+  border-style: double;
+  border-width: thick;
+}
+
+.border3 p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+.border4{
+  padding:20px;
+}
+.border4 p {
+  border: 5px solid red;
+}
+p.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
+.class{
+  width:80%;
+  margin:auto;
+  margin-top:5%;
+  border:2px solid red;
+}
